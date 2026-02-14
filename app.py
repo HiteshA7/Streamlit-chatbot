@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBQbWaKhSr6kTftPDLfEeuwNJhaFD4GTZo"
+os.environ["GOOGLE_API_KEY"] = "API key"
 
 chat_model = ChatGoogleGenerativeAI(model = "models/gemini-flash-lite-latest")
 
